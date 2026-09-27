@@ -1,0 +1,35 @@
+# Build artifacts
+**/build/
+**/.build/
+**/out/
+**/dist/
+
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.o
+*.d
+*.a
+
+# VS Code
+**/.vscode/*
+!**/.vscode/tasks.json
+!**/.vscode/settings.json
+!**/.vscode/extensions.json
+!**/.vscode/launch.json
+
+# Temporary/editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+*.log
+
+# Environment/secrets
+.env
+.env.*
